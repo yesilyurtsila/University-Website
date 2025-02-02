@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capella University</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><ion-icon name="school"></ion-icon> CAPELLA UNIVERSITY</a>
+        <nav class="nav">
+            <a href="index.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h2>Do you want to join Capella University?</h2>
+            <p>
+                You can have unique opportunities by attending Capella University. You
+                can study in state-of-the-art classrooms and socialize in
+                well-equipped clubs. We would be happy to see you among us.
+            </p>
+            <a href="#">Come join us</a>
+        </div>
+
+        <div class="wrapper-login">
+            <h2>Register</h2>
+            <form>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="email" required />
+                    <label>Enter your email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required />
+                    <label>Enter your password</label>
+                </div>
+                <button type="button" class="btn" onclick="registerUser()">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
